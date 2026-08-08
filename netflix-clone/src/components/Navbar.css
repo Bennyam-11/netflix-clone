@@ -1,0 +1,28 @@
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:black;
+position:fixed;
+width:100%;
+top:0;
+z-index:100;
+}
+
+.logo{
+color:red;
+font-size:32px;
+font-weight:bold;
+}
+
+.navbar ul{
+display:flex;
+list-style:none;
+gap:25px;
+color:white;
+}
+
+.navbar li{
+cursor:pointer;
+}

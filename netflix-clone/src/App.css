@@ -1,0 +1,36 @@
+body{
+margin:0;
+background:#111;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.App{
+background:#111;
+min-height:100vh;
+}
+
+@media (max-width:768px){
+
+.navbar ul{
+display:none;
+}
+
+.overlay h1{
+font-size:36px;
+}
+
+.overlay p{
+width:100%;
+font-size:14px;
+}
+
+.card{
+width:150px;
+}
+
+button{
+padding:8px 15px;
+font-size:14px;
+}
+
+}
